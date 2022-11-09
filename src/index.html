@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artorks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Szobor adatai:</h1>
+        <h5>Mű neve:</h5>
+        <input type="text" name="title" id="title">
+        <h5>Készítés éve:</h5>
+        <input type="text" name="year" id="year">
+        <h5>Mű ára(ft):</h5>
+        <input type="text" name="price" id="price">
+        <h5>Mű magassága(cm):</h5>
+        <input type="text" name="height" id="height">
+        <br>
+        <button id="add">Hozzáad</button>
+        <h5 class="invisible" id="wrongTitle">Hibás név!</h5>
+        <h5 class="invisible" id="wrongYear">Hibás év!</h5>
+        <h5 class="invisible" id="wrongPrice">Hibás ár!</h5>
+        <h5 class="invisible" id="wrongHeight">Hibás magasság!</h5>
+    </div>
+    <div class="container">
+        <h5 id="artAmount">Művek darabszáma:</h5>
+        <h5 id="priceSum">Művek összesített ára:</h5>
+    </div>
+    
+    
+    
+    <script src="index.js"></script> 
+</body>
+</html>

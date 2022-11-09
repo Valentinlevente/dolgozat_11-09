@@ -1,0 +1,23 @@
+.container{
+    width: 50%;
+    border: solid 1px grey;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+h1{
+    text-align: center;
+}
+#add{
+    margin-top: 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+}
+.invisible{
+    color: red;
+    display: none;
+}
