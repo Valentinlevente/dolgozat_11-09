@@ -1,24 +1,5 @@
-//import { Artwork } from "./artwork";
-interface Artwork{
-    title : string;
-    year : number;
-    price: number;
-}
-
-
-class Statue implements Artwork{
-    title: string;
-    year: number;
-    price: number;
-    height: number;
-
-    constructor(title: string, year: number, price: number, height: number){
-        this.title = title;
-        this.year = year;
-        this.price = price;
-        this.height = height;
-    }
-}
+import { Artwork } from "./artwork";
+import { Statue } from "./statue"; 
 
 let artworks : Artwork[] = [];
 

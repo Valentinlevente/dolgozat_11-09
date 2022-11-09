@@ -1,12 +1,6 @@
 "use strict";
-class Statue {
-    constructor(title, year, price, height) {
-        this.title = title;
-        this.year = year;
-        this.price = price;
-        this.height = height;
-    }
-}
+Object.defineProperty(exports, "__esModule", { value: true });
+const statue_1 = require("./statue");
 let artworks = [];
 function display() {
     let sum = 0;
@@ -33,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
         let priceTrue = price >= 1;
         let heightTrue = height >= 10;
         if (titleTrue && yearTrue && priceTrue && heightTrue) {
-            artworks.push(new Statue(title, year, price, height));
+            artworks.push(new statue_1.Statue(title, year, price, height));
             wrongTitle.style.display = "none";
             wrongYear.style.display = "none";
             wrongPrice.style.display = "none";
